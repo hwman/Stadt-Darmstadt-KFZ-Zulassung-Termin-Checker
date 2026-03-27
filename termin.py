@@ -17,13 +17,14 @@ from playwright.sync_api import sync_playwright
 # =========================
 # KONFIG
 # =========================
-START_URL = "https://tevis.ekom21.de/dar/select2?md=5"
-ANLIEGEN_TEXT = "Erstzulassung (eines Gebrauchtfahrzeuges aus dem Ausland)"
+START_URL = "https://tevis.ekom21.de/stdar/select2?md=5"
+#ANLIEGEN_TEXT = "Erstzulassung (eines Gebrauchtfahrzeuges aus dem Ausland)"
+ANLIEGEN_TEXT = "Kurzzeitkennzeichen"
 
 HEADLESS = True         # Debug: False
 DEBUG = True
 
-CHECK_INTERVAL_SECONDS = 10  # alle 10 Sekunden prüfen
+CHECK_INTERVAL_SECONDS = 30  # alle 10 Sekunden prüfen
 
 ENABLE_TOAST = True
 ENABLE_BEEP = True
